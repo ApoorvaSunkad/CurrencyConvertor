@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Mukta", sans-serif;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(45deg, #0a0a0a, #5a6980);
+}
+h2{
+    font-family: "Mukta", sans-serif;
+    text-align: center;
+}
+.container{
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 1rem;
+    min-height: 45vh;
+    width: 48vh;
+    box-shadow: 6px 7px 6px rgb(25, 25, 25);
+}
+
+form{
+    margin: 2rem 0 1rem 0;
+}
+
+form select,button,input{
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 0.75rem;
+}
+
+#textInput{
+    color: rgb(89, 88, 88);
+}
+form input{
+    border: 1px solid lightgray;
+    font-size: 1rem;
+    height: 3rem;
+    padding-left: 0.5rem;
+}
+
+.dropdown{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+}
+.dropdown i{
+    font-size: 1.2rem;
+    margin-top: 1rem;
+}
+.select-container img{
+    /* font-size: 1.75rem; */
+    max-width: 2rem;
+}
+
+.select-container{
+    display: flex;
+    width: 6rem;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.75rem;
+    border: 1px solid lightgray;
+}
+.select-container select{
+    font-size: 1rem;
+    width: auto;
+}
+option{
+    font-family: "Mukta", sans-serif;;
+}
+.msg{
+    margin: 2rem 0 1rem 0;
+}
+form button{
+    height: 2.5rem;
+    background-color: black;
+    color: #fff;
+    font-size: 1.1rem;
+    font-family: "Mukta", sans-serif;
+    cursor: pointer;
+    box-shadow: 6px 6px 6px rgb(111, 107, 107);
+}
